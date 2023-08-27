@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.header {
+    padding: 2rem 10rem
+}
+
+svg {
+    height: 2rem;
+    float: left;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.062em;
+    float: right;
+    cursor: pointer;
+}
+
+
+.first {
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+    margin-bottom: 50vh;
+}
+
+.first-container h2 {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.first-container h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+
+.first-container a {
+    text-decoration: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ffc800;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.first-container a:hover {
+    background-color: #d9aa00;
+}
+
+.second {
+    margin-bottom: 25rem;
+}
+
+.boxes{   
+    margin-left: 9%;
+    display: block;
+}
+
+.box {
+    width: 30%;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box i {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ffc800;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 128px;
+    text-align: center;
+}
+
+.box h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.box p {
+    margin-bottom: 1rem;
+    color: #6c757d;
+    width: 70%;
+    text-align: center;
+}
+
+.second-container h2 {
+    font-size: 2.5rem ;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.second-container h3 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.portfolio-boxes {
+    padding-left: 10%;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text {
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 4rem;
+}
+
+.portfolio-box {
+    width: 25%;
+    height: auto;
+    margin-left: 5rem;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.portfolio-box img {
+    width: 100%;
+    transition: .3s;
+}
+ 
+.portfolio-box img:hover {
+    opacity: .7;
+}
+
+.portfolio-box h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.portfolio-box p {
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6c757d;
+    padding-bottom: 2rem;
+}
+
+.box img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.our-team {
+    margin-bottom: 28rem;
+}
+
+.our-team h2 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.boxes h4 {
+    margin-top: 1.5rem;
+    font-size: calc(1.275rem + 0.3vw)
+}
+
+.team-box {
+    display: block;
+    margin-left: 11%;
+} 
+
+.brands {
+    height: 100px;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.brands p {
+    color: #6c757d !important;
+    line-height: 1.75;
+    margin-bottom: 5rem;
+}
+
+.container {
+    margin-left: 20%;
+}
+
+.container a {
+    width: 20%;
+    float: left; 
+    margin-top: 1rem;
+}
+
+.container img {
+    height: 3rem;
+}
